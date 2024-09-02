@@ -1,2 +1,2 @@
 # task-quest
-The epic struggle of one character trapped in between two worlds as they fight to maintain balance and survive. 
+Embark on an epic quest where the lines between reality and fantasy blur! In TaskQuest: The To-Do List Saga, take on the role of a hero caught between two worlds—one of everyday tasks and one of mythical challenges. Balance your real-life to-do list with thrilling RPG adventures, slay mundane monsters like the Laundry Beast, conquer the Paper Stack Dragon, and level up your character as you complete quests in both realms. Can you maintain harmony between these worlds and become the ultimate champion of productivity?

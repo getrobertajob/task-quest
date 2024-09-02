@@ -1,0 +1,90 @@
+/* src/styles/App.css */
+
+.App {
+    text-align: center;
+  }
+  
+  .level-up-arrow {
+    color: green;
+    font-size: 24px;
+    animation: blink 1s step-end infinite, fade 3s ease-out 4s forwards;
+    margin-left: 10px;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  
+  @keyframes fade {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  .character-stats {
+    display: flex;
+    align-items: center;
+  }
+  
+  .health-bar-container {
+    width: 200px;
+    height: 20px;
+    background-color: #ddd;
+    margin-right: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .health-bar-fill {
+    height: 100%;
+    transition: width 0.3s ease-in-out;
+    position: relative;
+  }
+  
+  .current-health-text {
+    position: absolute;
+    left: 5px;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .health-change-messages {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin-left: 20px;
+  }
+  
+  .health-change-message {
+    position: relative;
+    font-size: 20px;
+    animation: moveUp 4s ease-out forwards;
+  }
+  
+  @keyframes moveUp {
+    0% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(-100px);
+      opacity: 0;
+    }
+  }
+  
+  .video-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .video-wrapper {
+    flex: 1;
+  }
+  
